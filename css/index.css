@@ -1,0 +1,137 @@
+.index-banner{
+  position: relative;
+  background: #b3b3b3;
+}
+.index-banner .index-banner-bg{
+  height: 570px;
+  overflow: hidden;
+}
+.index-banner .index-banner-bg img{
+  margin: 0 auto;
+}
+.index-banner-text{
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  margin-left: -388px;
+}
+.index-banner-text .text-logo{
+  background: url(../images/index-banner-logo.png);
+  width: 776px;
+  height: 117px;
+}
+.index-banner-text .text-info{
+  margin-top: 17px;
+  text-align: center;
+  color:#fff;
+}
+.index-banner-text .text-info .line{
+  display: inline-block;
+  border-top:1px solid #fff;
+  width:40px;
+  vertical-align: middle;
+}
+.index-banner-text .text-info .text{
+  margin: 0 30px;
+}
+
+.index-menu{
+  position: relative;
+  border-top: 4px solid #f34949;
+  height: 596px;
+}
+.index-menu .menu-tips{
+  position: absolute;
+  left:50%;
+  top:0;
+  margin-left: -78px;
+  width:156px;
+  height: 75px;
+  background: #f34949;
+  color:#fff;
+  text-align: center;
+  line-height:75px;
+}
+.index-menu .menu-tips:after{
+  height: 0;
+  width: 0;
+  position: absolute;
+  left:0;
+  bottom:0;
+  content:'';
+  border-left:78px solid transparent;
+  border-right:78px solid transparent;
+  border-bottom:10px solid #fff;
+
+
+}
+
+
+.index-menu .menu-list {
+  margin-top:150px;
+  overflow: hidden;
+}
+.index-menu .menu-list ul{
+  width:1160px;
+  overflow: hidden;
+  /* background: #f34949; */
+}
+
+.index-menu .menu-list .menu-item{
+  float: left;
+  width:520px;
+  margin-bottom: 56px;
+  margin-right: 60px;
+}
+.index-menu .menu-list .menu-item .title,.index-menu .menu-list .menu-item .line{
+  float: left;
+
+}
+.index-menu .menu-list .menu-item .price{
+  float: right;
+
+}
+.index-menu .menu-list .menu-item .title{
+  width:230px;
+  color:#555;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.index-menu .menu-list .menu-item .line{
+  border-top:1px solid #e3e1e1;
+  margin-top: 10px;
+  width:192px;
+}
+
+.index-menu .menu-list .menu-item .title a{
+  color:#000;
+}
+.index-menu .menu-list .menu-item .comment{
+  margin-top:4px;
+  color:#b7b7b7;
+  font-size:12px;
+}
+.index-menu .menu-more-btn{
+margin: 0 auto;
+height: 32px;
+width:114px;
+padding-left:16px;
+border:1px solid #d7d5d5;
+font-size: 14px;
+color:#b7b7b7;
+line-height: 32px;
+}
+.index-menu .menu-more-btn .icon{
+  display: inline-block;
+  width:13px;
+  height: 8px;
+  background: url(../images/index-btn-logo.png);
+  margin-left:10px;
+}
+.index-menu .menu-more-btn .seperate{
+  margin-left: 10px;
+}
+
+
+
